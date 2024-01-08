@@ -351,7 +351,7 @@ class Sudoku(FishMultiple):
 
     @info_deco
     def hidden_quad(self):
-        return self.hidden_multiple(3)
+        return self.hidden_multiple(4)
 
     def hidden_multiple(self, ple):
         popped = []
